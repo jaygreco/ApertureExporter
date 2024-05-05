@@ -17,7 +17,7 @@ import os
 import plistlib
 import pprint
 
-from .adjustments import parse_adjustment
+from adjustments import parse_adjustment
 
 class ApertureDbBase(object):
     def __init__(self, basedir=None, db=None):
